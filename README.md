@@ -22,9 +22,9 @@ Coding Assistant is a Python-based terminal application that facilitates convers
 ### Setup
 
 1. **Clone the Repository**:
-   \```
+   ```
    git clone https://github.com/Lelandwilson/terminalGPT/tree/main
-   \```
+   ```
    
 2. **Navigate to the Project Directory**:
    \```
