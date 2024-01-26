@@ -43,11 +43,11 @@ Coding Assistant is a Python-based terminal application that facilitates convers
 
 Execute the application with the following command:
 ```
-python terminalGPYt.py
+python terminalGPT.py
 ```
 To specify a different AI model, use the `-m` option:
 ```
-python terminalGPY.py -m [model-name]
+python terminalGPT.py -m [model-name]
 ```
 
 ### API Key Configuration
