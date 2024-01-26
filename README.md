@@ -27,28 +27,28 @@ Coding Assistant is a Python-based terminal application that facilitates convers
    ```
    
 2. **Navigate to the Project Directory**:
-   \```
+   ```
    cd terminalGPT
-   \```
+   ```
    
 3. **Install Dependencies**:
    Install the required Python packages using:
-   \```
+   ```
    pip install -r requirements.txt
-   \```
+   ```
 
 ## Usage
 
 ### Running the Application
 
 Execute the application with the following command:
-\```
+```
 python coding_assistant.py
-\```
+```
 To specify a different AI model, use the `-m` option:
-\```
+```
 python coding_assistant.py -m [model-name]
-\```
+```
 
 ### API Key Configuration
 
@@ -56,9 +56,9 @@ The application requires an OpenAI API key. You can provide this key in two ways
 
 1. **Environment Variable**:
    Set the `OPENAI_API_KEY` environment variable in your terminal or shell configuration file. Example:
-   \```
+   ```
    export OPENAI_API_KEY='your_api_key_here'
-   \```
+   ```
 
 2. **Manual Input**:
    If the environment variable is not set, the application will prompt you to enter the API key manually upon startup.
