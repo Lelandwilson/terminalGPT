@@ -49,6 +49,22 @@ To specify a different AI model, use the `-m` option:
 ```
 python terminalGPT.py -m [model-name]
 ```
+## Current chatGPT models:
+For an up to dat elist of models available see:
+https://platform.openai.com/docs/models/gpt-4-and-gpt-4-turbo
+
+| MODEL                | DESCRIPTION | CONTEXT WINDOW | TRAINING DATA |
+|----------------------|-------------|----------------|---------------|
+| gpt-4-0125-preview   | New GPT-4 Turbo: The latest GPT-4 model intended to reduce cases of “laziness” where the model doesn’t complete a task. [Learn more](#). | 128,000 tokens | Up to Apr 2023 |
+| gpt-4-turbo-preview  | Currently points to gpt-4-0125-preview. | 128,000 tokens | Up to Apr 2023 |
+| gpt-4-1106-preview   | GPT-4 Turbo model featuring improved instruction following, JSON mode, reproducible outputs, parallel function calling, and more. Returns a maximum of 4,096 output tokens. This preview model is not yet suited for production traffic. [Learn more](#). | 128,000 tokens | Up to Apr 2023 |
+| gpt-4-vision-preview | GPT-4 with the ability to understand images, in addition to all other GPT-4 Turbo capabilities. Returns a maximum of 4,096 output tokens. This is a preview model version and not suited yet for production traffic. [Learn more](#). | 128,000 tokens | Up to Apr 2023 |
+| gpt-4                | Currently points to gpt-4-0613. [See continuous model upgrades](#). | 8,192 tokens | Up to Sep 2021 |
+| gpt-4-0613           | Snapshot of gpt-4 from June 13th 2023 with improved function calling support. | 8,192 tokens | Up to Sep 2021 |
+| gpt-4-32k            | Currently points to gpt-4-32k-0613. [See continuous model upgrades](#). This model was never rolled out widely in favor of GPT-4 Turbo. | 32,768 tokens | Up to Sep 2021 |
+| gpt-4-32k-0613       | Snapshot of gpt-4-32k from June 13th 2023 with improved function calling support. This model was never rolled out widely in favor of GPT-4 Turbo. | 32,768 tokens | Up to Sep 2021 |
+
+
 
 ### API Key Configuration
 
