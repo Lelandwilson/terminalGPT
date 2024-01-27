@@ -7,12 +7,23 @@ Coding Assistant is a Python-based terminal application that facilitates convers
 
 ## Features
 
-- Interactive chat with OpenAI's GPT-4 model.
-- Special formatting for code blocks.
-- Customizable AI model via command-line arguments.
-- Secure handling of the OpenAI API key.
+- **Extended Conversation Context**: Maintains a history of interactions for context-aware responses.
+- **Interactive Chat with GPT-4 Model**: Engage in a conversational style with the AI.
+- **Code Block Formatting**: Special formatting for clear display of code in terminal.
+- **Model Flexibility**: Choose from a range of OpenAI models via command-line arguments.
+- **Secure API Key Handling**: Manages OpenAI API keys securely with environment variable support.
+- **Context Management Commands**: Includes `/c` to clear history and `/pct` to print the entire formatted conversation history.
+## New Additions
 
-## Installation
+- **Context Percentage Display**: Shows how much of the model's context window is being used.
+- **Formatted History Retrieval**: Users can retrieve and view the entire formatted conversation history using the `/pct` command.
+
+
+## Installation & Usage
+
+- **Prerequisites**: Python 3, OpenAI API access.
+- **Setup**: Clone repository, navigate to directory, and install dependencies.
+- **Running the Application**: Use `python terminalGPT.py` to start. Options available for model selection and response customization.
 
 ### Prerequisites
 
@@ -82,10 +93,7 @@ The application requires an OpenAI API key. You can provide this key in two ways
 
 Type `/q` and press Enter to exit the application.
 
-## Support
+- Refer to GitHub repository for issues and questions.
+- Licensed under Apache.
 
-For any issues or questions, please open an issue in the GitHub repository.
-
-## License
-
-Apache
+For complete details and the latest updates, visit the [GitHub repository](https://github.com/Lelandwilson/terminalGPT/tree/main).
